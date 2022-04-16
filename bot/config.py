@@ -2,15 +2,15 @@ users = {}
 user_time = {}
 
 class config:
-    BOT_TOKEN = ""
-    APP_ID = ""
-    API_HASH = ""
-    DATABASE_URL = ""
-    SUDO_USERS = "" # Sepearted by space.
-    DOWNLOAD_DIRECTORY = "downloads/"
-    G_DRIVE_CLIENT_ID = ""
-    G_DRIVE_CLIENT_SECRET = ""
-    SUPPORT_CHAT_LINK = ""
+    BOT_TOKEN = "5308973662:AAGxw-Fw4UbrcArN6uOKsmbfVg0IVJLFXmM"
+    APP_ID = "10512962"
+    API_HASH = "480b80fff17b9ac6ec7b0abb22492ced"
+    DATABASE_URL = "postgres://hxdhgain:6kVbN9kzRpCU3skcNCmtqH4KyhftonJ_@hattie.db.elephantsql.com/hxdhgain"
+    SUDO_USERS = "1380112160" # Sepearted by space.
+    DOWNLOAD_DIRECTORY = "./downloads/"
+    G_DRIVE_CLIENT_ID = "792552696198-tb969b2cisgmnk9ojpj1or70mmqo11bu.apps.googleusercontent.com"
+    G_DRIVE_CLIENT_SECRET = "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"
+    SUPPORT_CHAT_LINK = "https://telegram.dog/+Rc3qPYU6cnZjZTdl"
     TIMEOUT = 0
     MAX_SIZE = 9 * 1024 * 1024 * 1024
     CUSTOM_THUMB = None
@@ -46,7 +46,6 @@ class Messages:
         
         # Dont remove this ↓ if you respect developer.
          
-        "**Join Channel @lkhitech**"
         ]
      
     RATE_LIMIT_EXCEEDED_MESSAGE = "❗ **Rate Limit Exceeded.**\n__User rate limit exceeded try after 24 hours.__"
